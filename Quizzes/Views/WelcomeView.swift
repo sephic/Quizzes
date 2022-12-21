@@ -16,11 +16,13 @@ struct WelcomeView: View {
                 VStack {
                     Spacer()
                     VStack(alignment: .leading, spacing: 0) {
-                        Text("Select the correct answers to the following questions.")
+                        Text("Select the correct answers to the following questions")
                             .font(.largeTitle)
                             .bold()
                             .multilineTextAlignment(.leading)
                             .padding()
+                        Image("GCC")
+                            .imageScale(.small)
                     }
                     Spacer()
                     Spacer()
